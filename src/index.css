@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+html, body{
+  height: 100vh;
+}
+
+.landing-page{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  padding: 0 30px;
+}
+a{
+  text-decoration: none;
+  
+}
+
+.landingpage-img-holder{
+  position: relative;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.get-started-btn a{
+  text-decoration: none;
+  color: white;
+}
+.get-started-btn{
+  border-radius: 3%;
+  background-color: rgb(34, 182, 182);
+  padding: 5px;
+  width: 71%;
+  margin: 0 auto;
+}
+/* Navbar styling */
+.logo{
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+.main-nav{
+  position: relative;
+}
+.bg-color{
+
+  background-color: #FAE06F;
+  background-size: cover;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+
+
+}
+.navbar-light .navbar-toggler {
+  color: #FAE06F;
+  border-color: #FAE06F;
+}
+.user-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  z-index: 1;
+}
+/* Todo Tasks */
+.maincard{
+  display:  flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.cardbody{
+  display: flex;
+  justify-content: space-between;
+  gap: 3px;
+  align-items: center;
+  height: 50px;
+}
+.cardicon{
+  font-size: 30px;
+  color:gold;
+}
+
+/* TodoDetail  */
+.tagname{
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 17px;
+
+}
+.taglists{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.addToList{
+  font-size: 30px;
+  float: right;
+  margin-top: 40px;
+
+}
+.delToList{
+  font-size: 30px;
+  float: left;
+  margin-top: 40px;
+
+}
+.confirmDelete{
+  display: none;
+  transition: all;
+}
+.delconfirmBtn button{
+  margin-right: 10px;
+  float: right;
+}
